@@ -1,0 +1,20 @@
+<nav>
+    <div class="nav-container">
+        <div class="nav-logo">
+            <a href="/">{{ site.title }}</a>
+        </div>
+        <ul class="nav-links">
+            {% for item in site.data.nav %}
+                <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+        <a class="mobile-menu-toggle"></a>
+        <ul class="mobile-menu menu">
+            <li><a href="/">{{ site.title }}</a></li>
+            {% for item in site.data.nav %}
+                <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+            {% endfor %}
+            <li data-action="close-menu"><a>Close</a></li>
+        </ul>
+    </div>
+</nav>

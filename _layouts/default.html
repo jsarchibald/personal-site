@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en-us" }}">
+    <head>
+        {% include meta.html %}
+        {% include css.html %}
+    </head>
+    <body>
+        {% include nav.html %}
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        {{ content }}
+                    </div>
+                    <div class="col-md-3">
+                        <div class="align-center">
+                            <img src="/assets/josh.jpg" alt="Josh Archibald" title="Josh Archibald" class="profile">
+                        </div>
+
+                        {% if page.toc %}
+                        <h5 class="ptb-2">On this page</h5>
+                        {{ content | toc_only }}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        {% include footer.html %}
+
+        {% include js.html %}
+    </body>
+</html>

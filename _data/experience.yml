@@ -1,0 +1,33 @@
+- title: Incoming Software Engineering Intern
+  organization: CS50
+  location: Cambridge, MA
+  start: Jun
+  end: Aug 2020
+- title: Research Assistant
+  organization: Harvard Graduate School of Education
+  location: Cambridge, MA
+  start: Feb
+  end: Jun 2020
+  highlights:
+  - "Developed a Python package [https://pypi.org/project/ccl-scratch-tools/](ccl-scratch-tools)
+     to download Scratch projects and related metadata, and to enumerate statistics about a given Scratch project."
+  - "Designed a website that allows participants in a GSE program to evaluate their progress in
+     learning Scratch and compare to others, offering specific teachable examples and suggestions for improvement."
+- title: Teaching Fellow
+  organization: Harvard Law School
+  location: Cambridge, MA
+  start: Jan
+  end: Jan 2020
+  highlights:
+  - "Assisted students during weekly 3-hour labs in Python, SQL, and web design for CS50 for JDs."
+  - "Helped students at office hours (3 hours weekly). Led a two-hour seminar on Flask web development."
+- title: Teaching Fellow
+  organization: Harvard School of Engineering and Applied Sciences
+  location: Cambridge, MA
+  start: Sep
+  end: Dec 2020
+  highlights:
+  - "Led a 23-person weekly recitation and created original lesson slides and practice exercises for
+     Computer Science 50: Introduction to Computer Science."
+  - "Helped students at office hours (2 hours weekly) and led a 6-person weekly tutorial."
+  - "Reviewed, tested, and graded 23 students’ final projects. Assisted students in planning of projects."

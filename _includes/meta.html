@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow" />
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+
+{% if page.image %}
+<meta property="og:image" content="{{ page.image }}">
+{% else %}
+    {% if site.image %}
+<meta property="og:image" content="{{ site.image }}">
+    {% endif%}
+{% endif %}
+
+{% if page.description %}
+<meta property="og:description" content="{{ page.description }}">
+<meta name="description" content="{{ page.description }}">
+{% else %}
+    {% if site.description %}
+    <meta property="og:description" content="{{ site.description }}">
+    <meta name="description" content="{{ site.description }}">
+    {% endif %}
+{% endif %}
+
+<title>{{ page.title }}</title>

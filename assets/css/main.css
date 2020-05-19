@@ -1,0 +1,43 @@
+nav {
+    background: #fff6ff;
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10;
+}
+
+.mobile-menu.show {
+    display: block;
+}
+
+hr {
+    margin: 2rem 0;
+    border: 0;
+    border-top: 1px solid #a8a8a8;
+}
+
+ul.indented {
+    margin-left: 1rem;
+    list-style-type: disc;
+}
+
+.card-actions a {
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+img.profile {
+    width: 80%;
+    border-radius: 1000px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
