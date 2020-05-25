@@ -10,7 +10,7 @@ let mobile_menu = () => {
     let menu_closer = document.querySelectorAll(".mobile-menu li");
     menu_closer.forEach((menu_close) => {
         menu_close.addEventListener("click", toggle_mobile_menu);
-    });
+    }); 
 };
 
 document.addEventListener("DOMContentLoaded", mobile_menu);

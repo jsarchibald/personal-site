@@ -25,6 +25,14 @@ ul.indented {
     list-style-type: disc;
 }
 
+.card-actions {
+    display: block !important;
+}
+
+.card-actions li {
+    display: inline-block;
+}
+
 .card-actions a {
     font-weight: bold;
 }
@@ -40,4 +48,20 @@ img.profile {
 
 .mb-0 {
     margin-bottom: 0;
+}
+
+.tags {
+    margin-top: .75rem;
+}
+
+.tag {
+    margin-top: .25rem;
+    padding: .25rem .5rem !important;
+    font-size: .8rem !important;
+    font-style: italic;
+}
+
+a.button-primary {
+    padding: .5rem 1rem;
+    border-radius: 3px;
 }

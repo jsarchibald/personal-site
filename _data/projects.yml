@@ -1,20 +1,34 @@
 - name: Postcards
   date: Jan 2020
   description: "Created a Python script to generate postcard-style images based on an image's EXIF geodata."
+  tags:
+    - Python
+    - Mapquest API
   links:
-  - name: Github
-    url: https://github.com/jsarchibald/postcards
+    - name: Github
+      url: https://github.com/jsarchibald/postcards
 - name: Room Designer
   date: Apr-May 2020
   description: "Developed an interface to create simple interior designs
     using speech recognition and the Leap Motion Controller.
     For MIT's 6.835: Intelligent Multimodal User Interfaces."
+  tags:
+    - Python
+    - Pygame
+    - Google Cloud
+    - Leap Motion Controller
   links:
-  - name: Github
-    url: https://github.com/jsarchibald/room-designer
+    - name: Github
+      url: https://github.com/jsarchibald/room-designer
 - name: Exhibitor
   date: Nov-Dec 2018
-  description: "Developed an interface to create interactive online 3D museum exhibits with A-Frame."
+  description: "Developed an interface to create interactive online 3D museum exhibits."
+  tags:
+    - Node.js
+    - JavaScript
+    - A-Frame
+    - HTML/CSS
+    - MySQL
   links: 
   - name: Github
     url: https://github.com/jsarchibald/exhibit
@@ -22,4 +36,7 @@
     url: https://exhibit.josharchibald.com/
 - name: Cookie Analysis
   date: Dec 2019
-  description: "Built a Chrome extension by which users can see basic metrics about the cookies on a page."
+  description: "Built a Chrome extension with which users can see basic metrics about the cookies on a page."
+  tags:
+    - JavaScript
+    - HTML/CSS
