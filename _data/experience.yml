@@ -13,7 +13,8 @@
      to download Scratch projects and related metadata, and to enumerate statistics about a given Scratch project."
   - "Contributed to the front and back ends of a <a href='https://github.com/GSE-CCL/getting-unstuck-web'>website</a>
      that allows participants in a GSE program to evaluate their progress in learning Scratch and compare to others,
-     offering specific teachable examples and suggestions for improvement."
+     offering specific teachable examples and suggestions for improvement. This project uses the Flask framework and
+     MongoDB."
 - title: Teaching Fellow
   organization: Harvard Law School
   location: Cambridge, MA
@@ -27,7 +28,7 @@
   organization: Harvard School of Engineering and Applied Sciences
   location: Cambridge, MA
   start: Sep
-  end: Dec 2020
+  end: Dec 2019
   highlights:
   - "Led a 23-person weekly recitation and created
      <a href='https://github.com/jsarchibald/cs50-2019'>original lesson slides and practice exercises</a> for

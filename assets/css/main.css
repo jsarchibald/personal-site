@@ -1,3 +1,7 @@
+.container {
+    padding: 30px 15px;
+}
+
 nav {
     background: #fff6ff;
 }
@@ -64,4 +68,9 @@ img.profile {
 a.button-primary {
     padding: .5rem 1rem;
     border-radius: 3px;
+}
+
+.copyright {
+    padding: 0 !important;
+    border: 0 !important;
 }
