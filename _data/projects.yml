@@ -1,3 +1,38 @@
+- name: Vericlass
+  date: Jul-Aug 2020
+  description: "Wrote scripts to scrape the Harvard course catalog. Designed a Vue web app to help students plan and visualize their courses for the term."
+  tags:
+    - Python
+    - Selenium
+    - Vue.js
+    - HTML/CSS
+  links:
+    - name: Site
+      url: https://vericlass.net
+- name: Getting Unstuck Web
+  date: Mar-Aug 2020
+  description: "Contributed to a web app that encourages students to reflect on their Scratch projects by showcasing excerpts from their own, as well as others', work."
+  tags:
+    - Python
+    - JavaScript
+    - MongoDB
+    - HTML/CSS
+  links:
+    - name: Github
+      url: https://github.com/GSE-CCL/getting-unstuck-web
+    - name: Site
+      url: https://gettingunstuck.gse.harvard.edu/
+- name: Scratch Tools
+  date: Feb-Jul 2020
+  description: "Developed a Python library that aids in downloading, analyzing, and visualizing Scratch projects."
+  tags:
+    - Python
+    - Scratch API
+  links:
+    - name: Github
+      url: https://github.com/gse-ccl/scratch-tools
+    - name: PyPI
+      url: https://pypi.org/project/ccl-scratch-tools/
 - name: Postcards
   date: Jan 2020
   description: "Created a Python script to generate postcard-style images based on an image's EXIF geodata."
