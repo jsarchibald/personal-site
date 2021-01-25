@@ -25,7 +25,7 @@ Outside of class, I enjoy volunteering my time teaching in Boston Public Schools
 {% for position in site.data.experience %}
 
 <h6 class="mb-0">{{ position.title }}, {{ position.organization }}</h6>
-{{ position.location }} &nbsp;&diams;&nbsp; {{ position.start }} &minus; {{ position.end }}
+{{ position.location }} &nbsp;&bull;&nbsp; {{ position.start }} &minus; {{ position.end }}
 
 <ul class="indented">
 {% for highlight in position.highlights %}
