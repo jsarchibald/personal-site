@@ -1,6 +1,6 @@
 - name: Vericlass
   date: Jul-Aug 2020
-  description: "Wrote scripts to scrape the Harvard course catalog. Designed a Vue web app to help students plan and visualize their courses for the term."
+  description: "Designed a course-planning web app in Vue.js, allowing students to discover over 8,000 courses and course evaluations scraped using Selenium and Beautiful Soup. Site visited by over 2,000 unique users."
   tags:
     - Python
     - Selenium
@@ -9,6 +9,8 @@
   links:
     - name: Site
       url: https://vericlass.net
+    - name: In the news
+      url: https://www.thecrimson.com/article/2020/8/15/shopping-week-q-scores-missing
 - name: Getting Unstuck Web
   date: Mar-Aug 2020
   description: "Contributed to a web app that encourages students to reflect on their Scratch projects by showcasing excerpts from their own, as well as others', work."
