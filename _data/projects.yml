@@ -13,35 +13,35 @@
       url: https://www.thecrimson.com/article/2020/8/15/shopping-week-q-scores-missing
 - name: Getting Unstuck Web
   date: Mar-Aug 2020
-  description: "Contributed to a web app that encourages students to reflect on their Scratch projects by showcasing excerpts from their own, as well as others', work."
+  description: "Contributed to a web app that encourages students to reflect on their Scratch projects by showcasing excerpts from their own, as well as others&rsquo;, work."
   tags:
     - Python
     - JavaScript
     - MongoDB
     - HTML/CSS
-    - Graduate School of Education
+    - Harvard GSE
   links:
     - name: Github
       url: https://github.com/GSE-CCL/getting-unstuck-web
     - name: Site
-      url: https://gettingunstuck.gse.harvard.edu/
+      url: https://gettingunstuck.gse.harvard.edu
 - name: Scratch Tools
   date: Feb-Jul 2020
   description: "Developed a Python library that aids in downloading, analyzing, and visualizing Scratch projects."
   tags:
     - Python
     - Scratch API
-    - Graduate School of Education
+    - Harvard GSE
   links:
     - name: Github
       url: https://github.com/gse-ccl/scratch-tools
     - name: PyPI
-      url: https://pypi.org/project/ccl-scratch-tools/
+      url: https://pypi.org/project/ccl-scratch-tools
 - name: Room Designer
   date: Apr-May 2020
   description: "Developed an interface to create simple interior designs
     using speech recognition and the Leap Motion Controller.
-    For MIT's 6.835: Intelligent Multimodal User Interfaces."
+    For MIT&rsquo;s 6.835: Intelligent Multimodal User Interfaces."
   tags:
     - Python
     - Pygame
@@ -53,7 +53,7 @@
       url: https://github.com/jsarchibald/room-designer
 - name: Postcards
   date: Jan 2020
-  description: "Created a Python script to generate postcard-style images based on an image's EXIF geodata."
+  description: "Created a Python script to generate postcard-style images based on an image&rsquo;s EXIF geodata."
   tags:
     - Python
     - Mapquest API
@@ -74,7 +74,7 @@
   - name: Github
     url: https://github.com/jsarchibald/exhibit
   - name: Demo
-    url: https://exhibit.josharchibald.com/
+    url: https://exhibit.josharchibald.com
   - name: Video
     url: https://youtu.be/D0JW6pnBUdg?t=1412
 - name: Cookie Analysis

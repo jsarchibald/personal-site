@@ -7,7 +7,7 @@ title: Josh Archibald
 <h1>Hi there!</h1>
 
 <p>
-    <span class="newthought">I'm Josh Archibald,</span> a rising junior at Harvard studying computer science.
+    <span class="newthought">I&rsquo;m Josh Archibald,</span> a junior at Harvard studying computer science.
     <label for="me" class="margin-toggle">&#8853;</label>
     <input type="checkbox" id="me" class="margin-toggle"/>
     <span class="marginnote">
@@ -25,29 +25,8 @@ title: Josh Archibald
 
 <section>
 
-<h2>Experience</h2>
 
-{% for position in site.data.experience %}
-
-<h3>{{ position.title }}, {{ position.organization }}</h3>
-<p>{{ position.location }} &nbsp;&bull;&nbsp; {{ position.start }} &minus; {{ position.end }}</p>
-
-<ul>
-{% for highlight in position.highlights %}
-<li>{{ highlight }}</li>
-{% endfor %}
-</ul>
-
-{% endfor %}
-
-
-</section>
-
-
-<section>
-
-
-<h2>Projects</h2>
+<h2 id="projects">Projects</h2>
 
 {% for project in site.data.projects %}
 
@@ -85,3 +64,25 @@ title: Josh Archibald
     </div>
 </div>
 {% endfor %}
+
+
+<section>
+
+<h2 id="experience">Experience</h2>
+
+{% for position in site.data.experience %}
+
+<h3>{{ position.title }}, {{ position.organization }}</h3>
+<p>{{ position.location }} &nbsp;&bull;&nbsp; {{ position.start }} &minus; {{ position.end }}</p>
+
+<ul>
+{% for highlight in position.highlights %}
+<li>{{ highlight }}</li>
+{% endfor %}
+</ul>
+
+{% endfor %}
+
+
+</section>
+

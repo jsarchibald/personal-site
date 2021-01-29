@@ -4,9 +4,14 @@
   start: Sep 2019
   end: Jan 2021
   highlights:
-  - "Led 23-person weekly recitation and created <a href='https://github.com/jsarchibald/cs50'>original slides and practice exercises</a>. Led a two-hour <a href='https://cs50.harvard.edu/hls/2020/winter/seminars/Flask_Seminar.pdf'>seminar</a> on Flask web development."
+  - "Led 23-person<label for='sn-class-size' class='margin-toggle sidenote-number'></label>
+     <input type='checkbox' id='sn-class-size' class='margin-toggle'>
+     <span class='sidenote'>23 students in fall 2019, 15 in fall 2020, if we&rsquo;re crunching numbers.</span>
+     weekly recitation and created <a href='https://github.com/jsarchibald/cs50'>original slides and practice exercises</a>. Led a two-hour <a href='https://cs50.harvard.edu/hls/2020/winter/seminars/Flask_Seminar.pdf'>seminar</a> on Flask web development."
   - "Reviewed, tested, and graded students&rsquo; final projects. Assisted students in planning of projects."
-  - "Helped students at office hours for CS50, CS50 for JDs, and the Harvard Business Analytics Program."
+  - "Helped students at office hours for CS50, CS50 for JDs, and the Harvard Business Analytics Program.<label for='sn-other-cs50' class='margin-toggle sidenote-number'></label>
+     <input type='checkbox' id='sn-other-cs50' class='margin-toggle'>
+     <span class='sidenote'>The latter two are essentially spinoff courses designed for law and online business certificate students, respectively.</span>"
 - title: Software Engineering Intern
   organization: CS50
   location: Cambridge, MA
@@ -22,8 +27,14 @@
   start: Feb
   end: Aug 2020
   highlights:
-  - "Developed a <a href='https://pypi.org/project/ccl-scratch-tools'>Python package</a> to scrape and aggregate data about Scratch projects, studios, and users. Tested with Pytest and Travis CI; deployed API documentation using Sphinx."
-  - "Worked with team to design a <a href='https://gettingunstuck.gse.harvard.edu'>website</a> that allows users to reflect on their learning progress in Scratch through specific teachable examples from other people&rsquo;s projects and guided reflection questions."
+  - "Developed a <a href='https://pypi.org/project/ccl-scratch-tools'>Python package</a><label for='sn-scratch-tools' class='margin-toggle sidenote-number'></label>
+     <input type='checkbox' id='sn-scratch-tools' class='margin-toggle'>
+     <span class='sidenote'>Most of Scratch&rsquo;s own software is written in Node.js, but we decided on a Python-based stack.</span>
+     to scrape and aggregate data about Scratch projects, studios, and users. Tested with Pytest and Travis CI; deployed API documentation using Sphinx."
+  - "Worked with team to design a <a href='https://gettingunstuck.gse.harvard.edu'>website</a> that allows users to reflect on their learning progress
+     in Scratch through specific teachable examples from other people&rsquo;s projects and guided reflection questions.<label for='sn-clowder' class='margin-toggle sidenote-number'></label>
+     <input type='checkbox' id='sn-clowder' class='margin-toggle'>
+     <p class='sidenote'>The project summary page of the Clowder software. <img src='/assets/img/clowder.gif' alt='Clowder software in action.'></p>"
   - "Contributed heavily to site&rsquo;s backend, including MongoDB cache backend; Celery worker app; and Scratch code analysis."
   - "Collaborated with team to make design decisions based on technical and pedagogical concerns alike. Contributed to paper on findings (publication pending) by combining and organizing data from Google Analytics and the site&rsquo;s database."
   - "Software used in a two-week professional development program by over <strong>300</strong> teachers to analyze over <strong>2,300</strong> projects."
