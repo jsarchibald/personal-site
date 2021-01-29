@@ -4,7 +4,6 @@ title: Josh Archibald
 ---
 
 <section>
-
 <h1>Hi there!</h1>
 
 <p>

@@ -1,37 +1,29 @@
-- title: Research Assistant
-  organization: Harvard Graduate School of Education
+- title: Teaching Fellow, CS50
+  organization: Harvard School of Engineering and Applied Sciences
   location: Cambridge, MA
-  start: Feb
-  end: Present
+  start: Sep 2019
+  end: Jan 2021
   highlights:
-  - "Developed a Python package <a href='https://pypi.org/project/ccl-scratch-tools/'>(ccl-scratch-tools)</a>
-     to download Scratch projects and related metadata, and to enumerate statistics about a given Scratch project."
-  - "Contributed to the front and back ends of a <a href='https://github.com/GSE-CCL/getting-unstuck-web'>website</a>
-     that allows participants in a GSE program to evaluate their progress in learning Scratch and compare to others,
-     offering specific teachable examples and suggestions for improvement. This project uses the Flask framework and
-     MongoDB."
+  - "Led 23-person weekly recitation and created <a href='https://github.com/jsarchibald/cs50'>original slides and practice exercises</a>. Led a two-hour <a href='https://cs50.harvard.edu/hls/2020/winter/seminars/Flask_Seminar.pdf'>seminar</a> on Flask web development."
+  - "Reviewed, tested, and graded students&rsquo; final projects. Assisted students in planning of projects."
+  - "Helped students at office hours for CS50, CS50 for JDs, and the Harvard Business Analytics Program."
 - title: Software Engineering Intern
   organization: CS50
   location: Cambridge, MA
   start: Jun
   end: Aug 2020
-- title: Teaching Fellow
-  organization: Harvard Law School
-  location: Cambridge, MA
-  start: Jan
-  end: Jan 2020
   highlights:
-  - "Assisted students during weekly 3-hour labs in Python, SQL, and web design for CS50 for JDs."
-  - "Helped students at office hours (3 hours weekly). Led a two-hour
-     <a href='https://cs50.harvard.edu/hls/2020/winter/seminars/Flask_Seminar.pdf'>seminar</a> on Flask web development."
-- title: Teaching Fellow
-  organization: Harvard School of Engineering and Applied Sciences
+  - "Overhauled SQL library, used by thousands of students each year, to handle both manual and auto transactions robustly."
+  - "Collaborated on a React app to compare similar student work side-by-side; added PDF export and a D3 graph component."
+  - "Devised new unit tests for 6 libraries and software tools used by students and teaching staff."
+- title: Research Assistant
+  organization: Harvard Graduate School of Education
   location: Cambridge, MA
-  start: Sep
-  end: Dec 2019
+  start: Feb
+  end: Aug 2020
   highlights:
-  - "Led a 23-person weekly recitation and created
-     <a href='https://github.com/jsarchibald/cs50-2019'>original lesson slides and practice exercises</a> for
-     Computer Science 50: Introduction to Computer Science."
-  - "Helped students at office hours (2 hours weekly) and led a 6-person weekly tutorial."
-  - "Reviewed, tested, and graded 23 students’ final projects. Assisted students in planning of projects."
+  - "Developed a <a href='https://pypi.org/project/ccl-scratch-tools'>Python package</a> to scrape and aggregate data about Scratch projects, studios, and users. Tested with Pytest and Travis CI; deployed API documentation using Sphinx."
+  - "Worked with team to design a <a href='https://gettingunstuck.gse.harvard.edu'>website</a> that allows users to reflect on their learning progress in Scratch through specific teachable examples from other people&rsquo;s projects and guided reflection questions."
+  - "Contributed heavily to site&rsquo;s backend, including MongoDB cache backend; Celery worker app; and Scratch code analysis."
+  - "Collaborated with team to make design decisions based on technical and pedagogical concerns alike. Contributed to paper on findings (publication pending) by combining and organizing data from Google Analytics and the site&rsquo;s database."
+  - "Software used in a two-week professional development program by over <strong>300</strong> teachers to analyze over <strong>2,300</strong> projects."
