@@ -17,6 +17,7 @@
     - JavaScript
     - MongoDB
     - HTML/CSS
+    - Graduate School of Education
   links:
     - name: Github
       url: https://github.com/GSE-CCL/getting-unstuck-web
@@ -28,20 +29,12 @@
   tags:
     - Python
     - Scratch API
+    - Graduate School of Education
   links:
     - name: Github
       url: https://github.com/gse-ccl/scratch-tools
     - name: PyPI
       url: https://pypi.org/project/ccl-scratch-tools/
-- name: Postcards
-  date: Jan 2020
-  description: "Created a Python script to generate postcard-style images based on an image's EXIF geodata."
-  tags:
-    - Python
-    - Mapquest API
-  links:
-    - name: Github
-      url: https://github.com/jsarchibald/postcards
 - name: Room Designer
   date: Apr-May 2020
   description: "Developed an interface to create simple interior designs
@@ -52,9 +45,19 @@
     - Pygame
     - Google Cloud
     - Leap Motion Controller
+    - MIT 6.835
   links:
     - name: Github
       url: https://github.com/jsarchibald/room-designer
+- name: Postcards
+  date: Jan 2020
+  description: "Created a Python script to generate postcard-style images based on an image's EXIF geodata."
+  tags:
+    - Python
+    - Mapquest API
+  links:
+    - name: Github
+      url: https://github.com/jsarchibald/postcards
 - name: Exhibitor
   date: Nov-Dec 2018
   description: "Developed an interface to create interactive online 3D museum exhibits."
@@ -64,6 +67,7 @@
     - A-Frame
     - HTML/CSS
     - MySQL
+    - CS50
   links: 
   - name: Github
     url: https://github.com/jsarchibald/exhibit

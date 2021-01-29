@@ -3,31 +3,37 @@ layout: default
 title: Josh Archibald
 ---
 
-## Hi there!
+<section>
 
-I'm Josh Archibald, a rising junior at Harvard studying computer science. I'm currently a research assistant at the [Creative Computing Lab](https://creativecomputing.gse.harvard.edu/) at the Harvard Graduate School of Education, where I work on tools to analyze [Scratch](https://scratch.mit.edu/) projects and help develop a website for the [Getting Unstuck](https://gettingunstuck.gse.harvard.edu/) professional development program.
+<h1>Hi there!</h1>
 
-This summer I'm working as a software development intern at [CS50](https://cs50.harvard.edu/), helping to design software tools to improve the student experience for Harvard's introductory computer science course. I've previously worked as a Teaching Fellow for the course in both its undergraduate and law school iterations.
+<p>
+    <span class="newthought">I'm Josh Archibald,</span> a rising junior at Harvard studying computer science.
+    <label for="me" class="margin-toggle">&#8853;</label>
+    <input type="checkbox" id="me" class="margin-toggle"/>
+    <span class="marginnote">
+        <img src="/assets/josh.jpg" alt="It's me!">
+        This is a photograph of me!
+    </span>
+</p>
 
-Outside of class, I enjoy volunteering my time teaching in Boston Public Schools - I've taught American government as part of the [Harvard CIVICS](https://iop.harvard.edu/get-involved/civics-program) program since my first semester of college and currently serve as the president of the [Digital Literacy Project](https://digilit.io/), which teaches middle school computer science.
+{% capture bio %}{% include_relative bio.md %}{% endcapture %}
+{{ bio | markdownify }}
 
-#### Contact Me
-- You can reach me by email at [jarchibald@college.harvard.edu](mailto:jarchibald@college.harvard.edu).
 
-#### Links
-- [Github](https://github.com/jsarchibald/)
-- [LinkedIn](https://www.linkedin.com/in/josh-archibald/)
+</section>
 
-<hr>
 
-## Experience
+<section>
+
+<h2>Experience</h2>
 
 {% for position in site.data.experience %}
 
-<h6 class="mb-0">{{ position.title }}, {{ position.organization }}</h6>
-{{ position.location }} &nbsp;&diams;&nbsp; {{ position.start }} &minus; {{ position.end }}
+<h3>{{ position.title }}, {{ position.organization }}</h3>
+<p>{{ position.location }} &nbsp;&bull;&nbsp; {{ position.start }} &minus; {{ position.end }}</p>
 
-<ul class="indented">
+<ul>
 {% for highlight in position.highlights %}
 <li>{{ highlight }}</li>
 {% endfor %}
@@ -35,22 +41,28 @@ Outside of class, I enjoy volunteering my time teaching in Boston Public Schools
 
 {% endfor %}
 
-<hr>
 
-## Projects
+</section>
 
-<div class="container">
+
+<section>
+
+
+<h2>Projects</h2>
+
 {% for project in site.data.projects %}
 
-{% assign remainder = forloop.index0 | modulo: 2 %}
+{% assign remainder = forloop.index0 | modulo: 3 %}
+
 {% if forloop.index0 > 0 and remainder == 0 %}
 </div>
 {% endif %}
+
 {% if remainder == 0 %}
-<div class="row">
+<div class="pure-g d-flex">
 {% endif %}
 
-<div class="col-md-6">
+<div class="pure-u-1 pure-u-md-7-24 flex-1">
     <div class="card">
         <h3 class="card-title">{{ project.name }}</h3>
         <p><strong>{{ project.date }}</strong></p>
@@ -74,4 +86,3 @@ Outside of class, I enjoy volunteering my time teaching in Boston Public Schools
     </div>
 </div>
 {% endfor %}
-</div>
