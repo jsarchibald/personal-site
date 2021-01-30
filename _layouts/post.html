@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en-us" }}">
+    <head>
+        {% include meta.html %}
+        {% include css.html %}
+    </head>
+    <body>
+        {% include nav.html %}
+        <main>
+            <article>
+                <section>
+                    <h1>{{ page.title }}</h1>
+
+                    <p>{{ page.date | date_to_string: "ordinal", "US"  }}</p>
+
+                    {{ content }}
+                </section>
+                <section>
+                    <hr>
+
+                    {% if page.categories.size > 0 %}
+                    <p>
+                        Categories:
+                        {% for category in page.categories %}
+                        <a href="/category/{{ category }}">{{ category }}</a>
+                        {% endfor %}
+                    </p>
+                    {% endif %}
+
+                    <ul class="tags">
+                        {% for tag in site.tags %}
+                            <li class="tag"><a href="/tags#{{ tag[0] }}" class="no-tufte-underline">{{ tag[0] }}</a></li>
+                        {% endfor %}
+                    </ul>
+                        
+                </section>
+            </article>
+        </main>
+
+        {% include footer.html %}
+
+        {% include js.html %}
+    </body>
+</html>
