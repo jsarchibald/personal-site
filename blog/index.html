@@ -3,6 +3,8 @@ layout: default
 title: Blog &minus; Josh Archibald
 ---
 
+{% if paginator.posts.size > 0 %}
+
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -39,3 +41,10 @@ title: Blog &minus; Josh Archibald
         <a href="{{ paginator.next_page_path }}" class="next">Next</a>
     {% endif %}
 </p>
+
+{% else %}
+
+<h1>No blog posts yet!</h1>
+<p>Check back later.</p>
+
+{% endif %}
