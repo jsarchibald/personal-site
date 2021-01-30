@@ -10,11 +10,11 @@
         </ul>
         <a class="mobile-menu-toggle"></a>
         <ul class="mobile-menu menu">
-            <li><a href="/">{{ site.title }}</a></li>
+            <li><a href="/" class="no-tufte-underline">{{ site.title }}</a></li>
             {% for item in site.data.nav %}
-                <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+                <li><a href="{{ item.link }}" class="no-tufte-underline">{{ item.name }}</a></li>
             {% endfor %}
-            <li data-action="close-menu"><a>Close</a></li>
+            <li data-action="close-menu"><a class="no-tufte-underline"><em>Close menu</em></a></li>
         </ul>
     </div>
 </nav>

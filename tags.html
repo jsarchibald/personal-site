@@ -1,0 +1,25 @@
+---
+layout: default
+title: Tags &minus; Josh Archibald
+---
+
+<h1>Tags</h1>
+
+<ul class="tags">
+{% for tag in site.tags %}
+    <li class="tag"><a href="#{{ tag[0] }}" class="no-tufte-underline">{{ tag[0] }}</a></li>
+{% endfor %}
+</ul>
+
+<hr>
+
+{% for tag in site.tags %}
+
+<h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>
+<ul>
+    {% for post in tag[1] %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a> <em>published</em> {{ post.date | date_to_string: "ordinal", "US" }}</li>
+    {% endfor %}
+</ul>
+
+{% endfor %}

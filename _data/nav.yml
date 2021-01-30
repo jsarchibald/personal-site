@@ -1,8 +1,10 @@
-- name: Experience
-  link: "#experience"
 - name: Projects
-  link: "#projects"
+  link: "/#projects"
+- name: Experience
+  link: "/#experience"
+- name: Blog
+  link: "/blog"
 - name: Github
-  link: https://github.com/jsarchibald/
+  link: https://github.com/jsarchibald
 - name: LinkedIn
-  link: https://www.linkedin.com/in/josh-archibald/
+  link: https://www.linkedin.com/in/josh-archibald
