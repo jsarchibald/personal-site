@@ -4,6 +4,8 @@ This past summer I worked as a software development intern at [CS50](https://cs5
 
 Outside of class, I enjoy volunteering my time teaching in Boston Public Schools - I taught American government as part of the [Harvard CIVICS](https://iop.harvard.edu/get-involved/civics-program) program for my first three semesters of college and recently served as the president of the [Digital Literacy Project](https://digilit.io/), which teaches middle school computer science.
 
+I'm currently on a leave of absence from Harvard for the Spring 2021 semester.
+
 ### Contact Me
 - You can reach me by email at [jarchibald@college.harvard.edu](mailto:jarchibald@college.harvard.edu).
 

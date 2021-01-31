@@ -38,3 +38,19 @@
   - "Contributed heavily to site&rsquo;s backend, including MongoDB cache backend; Celery worker app; and Scratch code analysis."
   - "Collaborated with team to make design decisions based on technical and pedagogical concerns alike. Contributed to paper on findings (publication pending) by combining and organizing data from Google Analytics and the site&rsquo;s database."
   - "Software used in a two-week professional development program by over <strong>300</strong> teachers to analyze over <strong>2,300</strong> projects."
+- title: Information Technology Intern
+  organization: Montville Public Schools
+  location: Oakdale, CT
+  start: Jun 2016
+  end: Aug 2019 (4 summers)
+  highlights:
+  - Designed Python scripts to parse and clean student data, easing transition between Student Information Systems.
+  - Developed tools using Python to manage the return of old and distribution of new teacher laptops during lease transition,
+     tracking asset and serial information and using that data to find missing computers using Meraki network dashboard.
+  - Redesigned sections of district website;<label for='sn-electron' class='margin-toggle sidenote-number'></label>
+     <input type='checkbox' id='sn-electron' class='margin-toggle'>
+     <p class='sidenote'>
+       I even wrote an Electron app so school admin could generate the
+       HTML and JS for a landing page slideshow, which I had to write manually because of the CMS used.
+     </p>
+     helped plan and execute a file server migration.
