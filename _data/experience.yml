@@ -34,7 +34,7 @@
   - "Worked with team to design a <a href='https://gettingunstuck.gse.harvard.edu'>website</a> that allows users to reflect on their learning progress
      in Scratch through specific teachable examples from other people&rsquo;s projects and guided reflection questions.<label for='sn-clowder' class='margin-toggle sidenote-number'></label>
      <input type='checkbox' id='sn-clowder' class='margin-toggle'>
-     <p class='sidenote'>The project summary page of the Clowder software. <img src='/assets/img/clowder.gif' alt='Clowder software in action.'></p>"
+     <p class='sidenote'>The project summary page of the Clowder software. <a href='https://gettingunstuck.gse.harvard.edu/project/409776758'>View this page on the web.</a> <img src='/assets/img/clowder.jpg' alt='Clowder software in action.'></p>"
   - "Contributed heavily to site&rsquo;s backend, including MongoDB cache backend; Celery worker app; and Scratch code analysis."
   - "Collaborated with team to make design decisions based on technical and pedagogical concerns alike. Contributed to paper on findings (publication pending) by combining and organizing data from Google Analytics and the site&rsquo;s database."
   - "Software used in a two-week professional development program by over <strong>300</strong> teachers to analyze over <strong>2,300</strong> projects."
