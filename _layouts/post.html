@@ -28,8 +28,8 @@
                     {% endif %}
 
                     <ul class="tags">
-                        {% for tag in site.tags %}
-                            <li class="tag"><a href="/tags#{{ tag[0] }}" class="no-tufte-underline">{{ tag[0] }}</a></li>
+                        {% for tag in page.tags %}
+                            <li class="tag"><a href="/tags#{{ tag }}" class="no-tufte-underline">{{ tag }}</a></li>
                         {% endfor %}
                     </ul>
                         
