@@ -88,7 +88,7 @@ title: Josh Archibald
 
 <section>
 
-<h2>Skills</h2>
+<h2 id="skills">Skills</h2>
 
 <p>Below is a full listing of the programming languages with which I feel comfortable, and a brief listing of some of the libraries and tools with which I have experience. This is <em>not</em> an exhaustive list of every language and library I have ever used.</p>
 
