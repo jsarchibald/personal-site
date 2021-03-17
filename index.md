@@ -86,3 +86,28 @@ title: Josh Archibald
 
 </section>
 
+<section>
+
+<h2>Skills</h2>
+
+<p>Below is a full listing of the programming languages with which I feel comfortable, and a brief listing of some of the libraries and tools with which I have experience. This is <em>not</em> an exhaustive list of every language and library I have ever used.</p>
+
+<p>Each skill is followed by the year in which I first used it.</p>
+
+<h3>Programming languages</h3>
+
+<ul>
+    {% for lang in site.data.skills.languages %}
+    <li>{{ lang.name }} ({{ lang.start_year }})</li>
+    {% endfor %}
+</ul>
+
+<h3>Libraries and tools</h3>
+
+<ul>
+    {% for lib in site.data.skills.libraries %}
+    <li>{{ lib.name }} ({{ lib.start_year }})</li>
+    {% endfor %}
+</ul>
+
+</section>

@@ -1,0 +1,40 @@
+languages:
+  - name: C
+    start_year: 2018
+  - name: "HTML + CSS"
+    start_year: 2013
+  - name: JavaScript
+    start_year: 2013
+  - name: MongoDB
+    start_year: 2020
+  - name: Node.js
+    start_year: 2018
+  - name: PHP
+    start_year: 2014
+  - name: Python
+    start_year: 2015
+  - name: SQL
+    start_year: 2014
+libraries:
+  - name: A-Frame
+    start_year: 2018
+  - name: Celery
+    start_year: 2020
+  - name: Docker
+    start_year: 2020
+  - name: Flask
+    start_year: 2018
+  - name: Git
+    start_year: 2015
+  - name: jQuery
+    start_year: 2013
+  - name: Pygame
+    start_year: 2020
+  - name: React
+    start_year: 2020
+  - name: Three.js
+    start_year: 2018
+  - name: Travis CI
+    start_year: 2020
+  - name: Vue.js
+    start_year: 2018

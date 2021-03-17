@@ -157,6 +157,10 @@ nav a:focus, nav a:active {
     display: block;
 }
 
+.w-100 {
+    width: 100%;
+}
+
 @media (max-width: 760px) {
     .nav-links {
         display: none;
