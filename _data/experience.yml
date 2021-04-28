@@ -12,6 +12,9 @@
   - "Helped students at office hours for CS50, CS50 for JDs, and the Harvard Business Analytics Program.<label for='sn-other-cs50' class='margin-toggle sidenote-number'></label>
      <input type='checkbox' id='sn-other-cs50' class='margin-toggle'>
      <span class='sidenote'>The latter two are essentially spinoff courses designed for law and online business certificate students, respectively.</span>"
+  - "Received a <a href='https://bokcenter.harvard.edu/teaching-awards'>Certificate of Distinction in Teaching</a> from the Office of Undergraduate Education in fall 2020.<label for='sn-bok-award' class='margin-toggle sidenote-number'></label>
+     <input type='checkbox' id='sn-bok-award' class='margin-toggle'>
+     <span class='sidenote'>Awarded to instructors with an overall rating of 4.50 or higher (out of 5) in course evaluations.</span>"
 - title: Software Engineering Intern
   organization: CS50
   location: Cambridge, MA
